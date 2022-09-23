@@ -788,7 +788,9 @@ img {
 .project__img   {
     width: 230px;
     justify-self: center;
-
+}
+.button--flex{
+    margin-bottom: var(--mb-1);
 }
 /*==================== TESTIMONIAL ====================*/
 
@@ -1031,6 +1033,7 @@ img {
         grid-template-columns: repeat(2, 1fr);
     }
 
+
     .qualification__sections{
         display: grid;
         grid-template-columns: .6fr;
@@ -1043,6 +1046,7 @@ img {
         margin-left: auto;
         margin-right: auto;
     }
+
 
     body{
         margin: 0;
@@ -1203,6 +1207,9 @@ img {
     .portfolio__content{
         column-gap: 5rem;
     }
+    .portfolio__img{
+        width: 700px;
+    }
     .swiper-portfolio-icon{
         font-size: 3.5rem;
     }
@@ -1219,7 +1226,7 @@ img {
     .contact__form{
         width: 460px;
     }
-    .contact__inputs{
+    .contact__container{
         grid-template-columns: repeat(2,1fr);
     }
 }
