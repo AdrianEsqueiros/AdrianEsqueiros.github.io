@@ -44,7 +44,6 @@
     --mb-0-25: .25rem;
     --mb-0-5: .5rem;
     --mb-0-75: .75rem;
-    --mb-1: 1rem;
     --mb-1-5: 1.5rem;
     --mb-2: 2rem;
     --mb-2-5: 2.5rem;
@@ -152,13 +151,12 @@ img {
 
 .section__title, 
 .section__subtitle {
-  text-align: center;
+  text-align: start;
 }
 
 /*==================== LAYOUT ====================*/
 .container {
-  max-width: 768px;
-  margin-left: var(--mb-1-5);
+  max-width: 900px;
   margin-right: var(--mb-1-5);
 }
 
@@ -748,7 +746,7 @@ img {
 }
 
 .swiper-container-horizontal > .swiper-pagination-bullets{
-    bottom: -2.5rem;
+    bottom: 0rem;
 }
 
 .swiper-pagination-bullet-active{
@@ -1056,7 +1054,7 @@ img {
         padding: 6rem 0 2rem;
     }
     .section__subtitle{
-        margin-bottom: 4rem;
+        margin-bottom: 1rem;
     }
 
     .header{
@@ -1208,7 +1206,7 @@ img {
         column-gap: 5rem;
     }
     .portfolio__img{
-        width: 700px;
+        width: 400px;
     }
     .swiper-portfolio-icon{
         font-size: 3.5rem;
@@ -1220,7 +1218,7 @@ img {
         right: -3.5rem;
     }
     .swiper-container-horizontal > .swiper-pagination-bullets{
-        bottom: -4.5rem;
+        bottom: 0rem;
     }
 
     .contact__form{
